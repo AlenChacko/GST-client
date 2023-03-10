@@ -4,6 +4,7 @@ import "./Navbar.css";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { IconContext } from "react-icons/lib";
 import { NavLink } from "react-router-dom";
+import logo from '../../assets/ecfileLogo.png'
 
 const listItems = [
 	"HOME",
@@ -31,7 +32,7 @@ function Navbar() {
 							to="/"
 							className="navbar-logo"
 							onClick={closeMobileMenu}>
-							GST
+							<img src={logo} alt="" />
 						</Link>
 						<div className="menu-icon" onClick={handleClick}>
 							{click ? <FaTimes /> : <FaBars />}

@@ -1,7 +1,7 @@
 .body {
 	margin: 0;
 	background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-		url("../../assets/pexels-adrien-olichon-2387793.jpg");
+		url("../../assets/background.jpg");
 	background-attachment: fixed;
 	background-position: center center;
 	background-size: cover;
